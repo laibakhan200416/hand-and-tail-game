@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hand & Tail Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Hand & Tail Game</h1>
+    <p>Choose Hand or Tail and try to beat the computer!</p>
+
+    <div class="choices">
+      <button id="headBtn" class="choice-btn">Hand</button>
+      <button id="tailBtn" class="choice-btn"> Tail</button>
+    </div>
+
+    <div id="resultBox" class="result-box">
+      <p>Make your choice to start the game.</p>
+    </div>
+
+    <div class="score-board">
+      <p>You: <span id="userScore">0</span> | Computer: <span id="compScore">0</span></p>
+    </div>
+
+    <button id="resetBtn" class="reset-btn">🔄 Reset Game</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
